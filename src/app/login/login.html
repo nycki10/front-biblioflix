@@ -1,0 +1,55 @@
+<section class="login">
+
+  <div class="background-overlay"></div>
+
+  <div class="form-box">
+
+    <a href="#" class="back-link">
+      ← Voltar
+    </a>
+
+    <div class="logo">
+      📚 BiblioFlix
+    </div>
+
+    <h1>Entrar</h1>
+
+    <p>
+      Faça login para acessar sua biblioteca digital e continuar sua jornada de leitura.
+    </p>
+
+    <div class="input-box">
+      <span>📧</span>
+      <input
+        type="email"
+        placeholder="Digite seu email">
+    </div>
+
+    <div class="input-box">
+      <span>🔒</span>
+      <input
+        type="password"
+        placeholder="Digite sua senha">
+    </div>
+
+    <button class="btn-login" (click)="goToCreatebook()">
+      Entrar
+    </button>
+
+    <div class="links">
+
+      <a href="#">
+        Esqueceu sua senha?
+      </a>
+
+      <span>|</span>
+
+      <a  (click)="goToRegister()">
+        Criar Conta
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
